@@ -1,0 +1,3 @@
+street_address,zip,row,cleaned_address,is_intersection,stnum1,stnum2,stdir,stname,sttype,full_address,lat,long,score,matched_address,m_is_intersection,m_street,m_stnum1,m_stnum2,m_stdir,m_stname,m_sttype,m_zip
+11592 S FRONT AVE,60628,329467,11592 S FRONT AVE,FALSE,11592,11592,S,FRONT,AVE,"11592 S FRONT AVE, CHICAGO IL 60628",41.6937168,-87.6231318,88,"60628, CHICAGO, IL",FALSE,60628,,,,,,
+11576 S FRONT AVE,60628,340089,11576 S FRONT AVE,FALSE,11576,11576,S,FRONT,AVE,"11576 S FRONT AVE, CHICAGO IL 60628",41.6937168,-87.6231318,88,"60628, CHICAGO, IL",FALSE,60628,,,,,,
