@@ -48,7 +48,7 @@ These are in the folder `processed_data`:
 
 -   `total` Total number of service lines located to the tract.
 
--   `flag` TRUE if `total` is less than 25. Used to apply an gray color to tracts with very few service lines on the interactive and static maps.
+-   `flag` TRUE if `total` is less than 25. Used to apply transparency or a gray color to tracts with very few service lines on the interactive and static maps respectively.
 
 -   `lead_plus_suspected` The sum of `L` and `U`.
 
