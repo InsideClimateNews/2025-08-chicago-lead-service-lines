@@ -8,13 +8,15 @@ Contains the following R scripts and Jupyter workbooks:
 
 `process_addresses.R` This parses addresses from the 2025 Chicago water service line inventory from the file `2025_inventory.xlsx` in the `data` folder, then geocodes and associates each address with the corresponding Census tract. (Note, the pipeline also involved inspection and editing of results in [OpenRefine](https://openrefine.org/) and QGIS, spatial joins conducted in [QGIS](https://qgis.org/), plus some manual geocoding, so is not fully reproducible from this code.)
 
-`tract-to-cca-aggregation-income.ipnyb` `tract-to-cca-aggregation-race.ipynb` These aggregate ACS data to the level of Chicago's 77 [Community Areas](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-Map/cauq-8yn6).
+`tract-to-cca-aggregation-income.ipynb` `tract-to-cca-aggregation-race.ipynb` `tract-to-cca-aggregation-poverty.ipynb` These aggregate ACS data to the level of Chicago's 77 [Community Areas](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-Map/cauq-8yn6).
 
 `process_inventory.R`This combines the outputs of the previous scripts, workbooks and manual geocoding to create the map layers and the service line data used in the interactive app produced using the code in [this GitHub repository](https://github.com/Grist-Data-Desk/chi-pb).
 
 `consolidate_addresses.R` This consolidates addresses from the inventory with overlapping street number ranges so that, for example, separate service lines located by the city at 11-13 E ILLINOIS ST and at 11 E ILLINOIS ST both appear in our interactive under the consolidated address 11-13 E ILLINOIS ST.
 
 `static_maps.R` Code to generate panel of static maps, saved to the `maps` folder, subsequently edited by the partners' graphics desks to produce the versions used for publication.
+
+`majority-race-analysis.ipynb` Code to reproduce the analysis of percentage of service lines requiring replacement in majority Black, Latino, Asian, and white census tracts.
 
 ### Processed data files
 
