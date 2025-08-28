@@ -2,7 +2,7 @@
 
 Data and code to reproduce the analysis underlying the stories and interactive map analyzing the city of Chicago's problems with lead water service lines published on Aug. 28 by [Inside Climate News](https://insideclimatenews.org/news/28082025/chicago-lead-water-pipes-map/), Grist, and WBEZ.
 
-Contains the following R scripts and Jupyter workbooks:
+### Contains the following R scripts and Jupyter notebooks:
 
 `acs.R` This pulls socioeconomic and race/ethnicity data from the 2023 5-year American Community Survey (ACS) for Census tracts in Chicago.
 
@@ -10,7 +10,7 @@ Contains the following R scripts and Jupyter workbooks:
 
 `tract-to-cca-aggregation-income.ipynb` `tract-to-cca-aggregation-race.ipynb` `tract-to-cca-aggregation-poverty.ipynb` These aggregate ACS data to the level of Chicago's 77 [Community Areas](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-Map/cauq-8yn6).
 
-`process_inventory.R`This combines the outputs of the previous scripts, workbooks and manual geocoding to create the map layers and the service line data used in the interactive app produced using the code in [this GitHub repository](https://github.com/Grist-Data-Desk/chi-pb).
+`process_inventory.R`This combines the outputs of the previous scripts, notebooks and manual geocoding to create the map layers and the service line data used in the interactive app produced using the code in [this GitHub repository](https://github.com/Grist-Data-Desk/chi-pb).
 
 `consolidate_addresses.R` This consolidates addresses from the inventory with overlapping street number ranges so that, for example, separate service lines located by the city at 11-13 E ILLINOIS ST and at 11 E ILLINOIS ST both appear in our interactive under the consolidated address 11-13 E ILLINOIS ST.
 
