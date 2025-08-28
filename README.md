@@ -12,11 +12,11 @@ Data and code to reproduce the analysis underlying the stories and interactive m
 
 `process_inventory.R` This combines the outputs of the previous scripts, notebooks and manual geocoding to create the map layers and the service line data used in the interactive app produced using the code in [this GitHub repository](https://github.com/Grist-Data-Desk/chi-pb).
 
-`consolidate_addresses.R` This consolidates addresses from the inventory with overlapping street number ranges so that, for example, separate service lines located by the city at 11-13 E ILLINOIS ST and at 11 E ILLINOIS ST both appear in our interactive under the consolidated address 11-13 E ILLINOIS ST.
+`consolidate_addresses.R` This consolidates addresses from the inventory with overlapping street number ranges so that, for example, separate service lines located by the city at `11-13 E ILLINOIS ST` and at `11 E ILLINOIS ST` both appear in our interactive under the consolidated address `11-13 E ILLINOIS ST`.
 
 `static_maps.R` Code to generate panel of static maps, saved to the `maps` folder, subsequently edited by the partners' graphics desks to produce the versions used for publication.
 
-`majority-race-analysis.ipynb` Code to reproduce the analysis of percentage of service lines requiring replacement in majority Black, Latino, Asian, and white census tracts.
+`majority-race-analysis.ipynb` Code to reproduce the analysis of percentage of service lines requiring replacement in majority Black, Latino, Asian and white census tracts.
 
 ### Processed data files
 
