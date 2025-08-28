@@ -4,7 +4,7 @@ Data and code to reproduce the analysis underlying the stories and interactive m
 
 ### Contains the following R scripts and Jupyter notebooks:
 
-`acs.R` This pulls socioeconomic and race/ethnicity data from the 2023 5-year American Community Survey (ACS) for Census tracts in Chicago.
+`acs.R` This pulls socioeconomic and race/ethnicity data from the 2023 5-year American Community Survey (ACS) for Census tracts in the Chicago area.
 
 `process_addresses.R` This parses addresses from the 2025 Chicago water service line inventory from the file `2025_inventory.xlsx` in the `data` folder, then geocodes and associates each address with the corresponding Census tract. (Note, the pipeline also involved inspection and editing of results in [OpenRefine](https://openrefine.org/) and QGIS, spatial joins conducted in [QGIS](https://qgis.org/), plus some manual geocoding, so is not fully reproducible from this code.)
 
@@ -22,7 +22,7 @@ Data and code to reproduce the analysis underlying the stories and interactive m
 
 These are in the folder `processed_data`:
 
-`chicago_tracts_filled.geojson` Geodata for Census tracts in the city of Chicago, for the city of Chicago plus tracts that are not part of the city but are contained within its outer perimeter. Contains the following variables:
+`chicago_tracts_filled.geojson` Geodata for Census tracts for the city of Chicago plus tracts that are not part of the city but are contained within its outer perimeter. Contains the following variables:
 
 -   `geoid` Census Bureau identifier for the tract.
 
