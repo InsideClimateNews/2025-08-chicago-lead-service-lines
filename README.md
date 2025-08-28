@@ -1,6 +1,6 @@
 # Chicago water service lines data processing
 
-Data and code to reproduce the analysis underlying the stories and interactive map analyzing the city of Chicago's problems with lead water service lines published on Aug. 28 by [Inside Climate News](https://insideclimatenews.org/news/28082025/chicago-lead-water-pipes-map/), Grist, and WBEZ.
+Data and code to reproduce the analysis underlying the stories and interactive map analyzing the city of Chicago's problems with lead water service lines published on Aug. 28, 2025 by [Inside Climate News](https://insideclimatenews.org/news/28082025/chicago-lead-water-pipes-map/), Grist, and WBEZ.
 
 ### Contains the following R scripts and Jupyter notebooks:
 
